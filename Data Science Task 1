@@ -1,0 +1,15 @@
+import matplotlib.pyplot as plt
+
+genders = ['Male', 'Female', 'Non-binary', 'Prefer not to say']
+counts = [450, 520, 30, 100]
+
+
+plt.bar(genders, counts)
+
+
+plt.title('Distribution of Genders in Population')
+plt.xlabel('Gender')
+plt.ylabel('Count')
+
+
+plt.show()
